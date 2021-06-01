@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches snapshot 1`] = `
+<div
+  className="container my-5"
+>
+  <div
+    className="my-5"
+  >
+    <h2
+      className="col-12"
+    >
+      Alteração de dados do orçamento 
+      1
+    </h2>
+  </div>
+  <form
+    className="row g-3"
+    id="edit-quote-form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="col-md-6 mt-2"
+    >
+      <label
+        className="form-label"
+        htmlFor="companyName"
+      >
+        Nome da empresa:
+      </label>
+      <input
+        className="form-control"
+        data-testid="companyName1"
+        id="companyName"
+        onChange={[Function]}
+        required={true}
+        type="text"
+        value="Nome teste"
+      />
+      <div
+        className="invalid-feedback"
+      >
+        Digite um nome de empresa válido.
+      </div>
+    </div>
+    <div
+      className="col-md-6 mt-2"
+    >
+      <label
+        className="form-label"
+        htmlFor="email"
+      >
+        Email de contato:
+      </label>
+      <input
+        className="form-control"
+        data-testid="email1"
+        id="email"
+        onChange={[Function]}
+        required={true}
+        type="email"
+        value="email@teste.com"
+      />
+      <div
+        className="invalid-feedback"
+      >
+        Digite um email válido.
+      </div>
+    </div>
+    <div
+      className="col-6 mt-2"
+    >
+      <label
+        className="form-label"
+        htmlFor="adress"
+      >
+        Endereço:
+      </label>
+      <input
+        className="form-control"
+        data-testid="adress1"
+        id="adress"
+        onChange={[Function]}
+        required={true}
+        type="text"
+        value="Endereço teste"
+      />
+      <div
+        className="invalid-feedback"
+      >
+        Digite um endereço válido.
+      </div>
+    </div>
+    <div
+      className="col-6 mt-2"
+    >
+      <label
+        className="form-label"
+        htmlFor="quote-date"
+      >
+        Data do orçamento:
+      </label>
+      <input
+        className="form-control"
+        data-testid="quoteDate1"
+        id="quoteDate"
+        onChange={[Function]}
+        required={true}
+        type="date"
+        value="2020-01-01"
+      />
+      <div
+        className="invalid-feedback"
+      >
+        Selecione uma data válida.
+      </div>
+    </div>
+    <div
+      className="col-6 mt-2 "
+    >
+      <label
+        className="form-label"
+        htmlFor="product"
+      >
+        Produto
+      </label>
+      <select
+        className="form-select  custom-select"
+        data-testid="product1"
+        id="product"
+        onChange={[Function]}
+        required={true}
+        value="Parafuso"
+      >
+        <option
+          disabled={true}
+          value="Parafuso"
+        >
+          Parafuso
+        </option>
+        <option
+          value="Parafuso"
+        >
+          Parafuso
+        </option>
+        <option
+          value="Broca"
+        >
+          Broca
+        </option>
+      </select>
+      <div
+        className="invalid-tooltip"
+      >
+        Please select a valid state.
+      </div>
+    </div>
+    <div
+      className="col-6 mt-2"
+    >
+      <label
+        className="form-label"
+        htmlFor="quantity"
+      >
+        Quantidade:
+      </label>
+      <input
+        className="form-control"
+        data-testid="quantity1"
+        id="quantity"
+        onChange={[Function]}
+        required={true}
+        type="number"
+        value="100"
+      />
+      <div
+        className="invalid-feedback"
+      >
+        Digite uma quantidade(número) valida.
+      </div>
+    </div>
+    <div
+      className="col-12 d-flex justify-content-center my-5"
+    >
+      <button
+        className="btn btn-primary col-12"
+        type="submit"
+      >
+        Atualizar pedido de orçamento
+      </button>
+    </div>
+  </form>
+</div>
+`;

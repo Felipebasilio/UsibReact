@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches snapshot 1`] = `
+<header
+  className="site-header py-1 sticky-top my-0"
+>
+  <nav
+    className="navbar navbar-expand navbar-dark d-flex justify-content-start"
+  >
+    <a
+      aria-current="page"
+      className="px-5 active"
+      href="/"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      USIB
+    </a>
+    <a
+      aria-current={null}
+      className="px-4"
+      href="/listQuotes"
+      onClick={[Function]}
+    >
+      Orçamentos
+    </a>
+  </nav>
+</header>
+`;
