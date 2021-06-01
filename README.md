@@ -1,7 +1,10 @@
 # Getting Started with Usib React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-This application is based on a website's idea for a machining company. Is should be able to create quotes to be analised by the company and returned the product's value to the client.
+This application is based on a website's idea for a machining company. 
+
+It should be able to create quotes to be analised by the company and returned the product's value to the client.
+
 The project uses a mockAPI to CRUD operations, Bootstrap for styling and React as framework.
 
 When you run the script `yarn start` to see the project built it uses localhost:3000
